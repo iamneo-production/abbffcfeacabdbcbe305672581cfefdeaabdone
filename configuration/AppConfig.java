@@ -2,9 +2,10 @@ package com.examly.springapp;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.sprin
+import org.springframework.context.annotation.Configuration;
+
 @Configuration
-@ComponentScan(base)
+@ComponentScan(com.examly.springapp)
 public class AppConfig {
     @Bean
     public Student student(){
